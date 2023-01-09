@@ -352,22 +352,26 @@ main.login form #txfUser:invalid {
       overflow:hidden;
       background-color: #fff;
       margin-top: 20px;
-      max-width:1280px;
       text-align:center;
     }
     
     .site-shopping-info .container {
       background-color:#fff;
       text-align:center;
+      max-width:1200px;
 } 
     
-
+section>.container{
+  margin:0 auto;
+  max-width:1200px;
+  padding:40px 0;
+    }
+  
     .site-shopping-info .info-slide {
       float:left;
       width:33.3333333333%;
       background-color:#fffff;
       padding: 35px 24px 20px;
-      width:100%;
     }
   
      
