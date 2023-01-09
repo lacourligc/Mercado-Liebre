@@ -347,7 +347,7 @@ main.login form #txfUser:invalid {
     div.burger-menu {
       display: none;
     }
-    section site-shopping-info {
+    .site-shopping-info {
       overflow:hidden;
       background-color: #fff;
       margin-top: 20px;
@@ -378,6 +378,13 @@ main.login form #txfUser:invalid {
     margin: 4px 0 10px;
     text-align:center;
 }
+    p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
 
    
     .nav-footer-info-wrapper {
@@ -391,10 +398,9 @@ main.login form #txfUser:invalid {
     margin:0;
 }
   footer {
-     display:block;
+     display:inline;
      background-color:#fff;
      padding:20px 10%
-     box-sizing:border-box;
     
     }  
 }
