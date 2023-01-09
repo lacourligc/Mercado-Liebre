@@ -358,7 +358,7 @@ main.login form #txfUser:invalid {
 } 
     
     div {
-      display:block;
+      display:flex;
     }
     .site-shopping-info .info-slide {
       float:left;
@@ -369,7 +369,28 @@ main.login form #txfUser:invalid {
    footer {
      display:block;
      background-color:#fff;
+    }
      
-      
-  
+    site-shopping-info .info-slide p {
+    color: #999;
+    font-size: 15px;
+    line-height: 1.2;
+    margin: 4px 0 10px;
+    text-align:center;
+}
+  section>.container {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 40px 0;
+}
+    .info-slide > div{
+      flex:1;
+    }
+    .nav-footer-info-wrapper {
+    background-color: #eee;
+    color: #999;
+    font-family: "Proxima Nova",-apple-system,Roboto,Arial,sans-serif;
+    font-size: 14px;
+    overflow: hidden;
+}
   }
