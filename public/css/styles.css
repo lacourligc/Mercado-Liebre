@@ -358,18 +358,19 @@ main.login form #txfUser:invalid {
 } 
     
     div {
-      display:flex;
+      display:block;
+      @media screen and (max-width: 1280px)
+.site-shopping-info .info-slide {
+    padding: 35px 24px 20px;
+}
     }
     .site-shopping-info .info-slide {
       float:left;
       width:33.3333333333%;
       background-color:#fffff;
-      
     }
-   footer {
-     display:block;
-     background-color:#fff;
-    }
+    
+  
      
     site-shopping-info .info-slide p {
     color: #999;
@@ -403,4 +404,12 @@ main.login form #txfUser:invalid {
      padding:20px 10%
     
     }  
+      .site-shopping-info .info-slide>.img-container img {
+    vertical-align: middle;
+}
+
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
 }
