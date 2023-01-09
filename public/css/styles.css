@@ -367,7 +367,7 @@ main.login form #txfUser:invalid {
     }
   
      
-    site-shopping-info .info-slide p {
+    .site-shopping-info .info-slide p {
     color: #999;
     font-size: 15px;
     line-height: 1.2;
@@ -380,6 +380,7 @@ main.login form #txfUser:invalid {
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
+      text-align:center;
 }
 
    
@@ -419,6 +420,7 @@ img {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     font-weight: bold;
+    text-align:center;
     }
     .site-shopping-info .info-slide h2 {
     color: #4b4b4b;
