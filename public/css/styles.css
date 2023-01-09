@@ -357,7 +357,6 @@ main.login form #txfUser:invalid {
     }
     
     .site-shopping-info .container {
-    max-width: 1200px;
       background-color:#fff;
       text-align:center;
 } 
@@ -367,7 +366,8 @@ main.login form #txfUser:invalid {
       float:left;
       width:33.3333333333%;
       background-color:#fffff;
-    padding: 35px 24px 20px;
+      padding: 35px 24px 20px;
+      width:100%;
     }
   
      
