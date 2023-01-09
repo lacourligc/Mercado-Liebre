@@ -2,7 +2,6 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-  max-width:1200px;
 }
 
 body {
@@ -365,7 +364,7 @@ main.login form #txfUser:invalid {
     
 section>.container{
   margin:0 auto;
-  max-width:1200px;
+ background-color:#fffff;
   padding:40px 0;
     }
   
