@@ -355,21 +355,16 @@ main.login form #txfUser:invalid {
     
     .site-shopping-info .container {
     max-width: 1200px;
+      background-color:#fff;
 } 
     
-    div {
-      display:block;
-      @media screen and (max-width: 1280px)
-.site-shopping-info .info-slide {
-    padding: 35px 24px 20px;
-}
-    }
+
     .site-shopping-info .info-slide {
       float:left;
       width:33.3333333333%;
       background-color:#fffff;
+    padding: 35px 24px 20px;
     }
-    
   
      
     site-shopping-info .info-slide p {
@@ -389,7 +384,7 @@ main.login form #txfUser:invalid {
 
    
     .nav-footer-info-wrapper {
-    background-color: #eee;
+    background-color: #fff;
     color: #999;
     font-family: "Proxima Nova",-apple-system,Roboto,Arial,sans-serif;
     font-size: 14px;
@@ -406,10 +401,33 @@ main.login form #txfUser:invalid {
     }  
       .site-shopping-info .info-slide>.img-container img {
     vertical-align: middle;
+      
+}
+    .site-shopping-info .info-slide>.img-container {
+    height: 55px;
 }
 
 img {
     overflow-clip-margin: content-box;
     overflow: clip;
 }
+    h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    }
+    .site-shopping-info .info-slide h2 {
+    color: #4b4b4b;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.4;
+    margin: 16px 0 0;
+}
+
+
+
 }
