@@ -363,8 +363,13 @@ main.login form #txfUser:invalid {
     .site-shopping-info .info-slide {
       float:left;
       width:33.3333333333%;
-    }
+      background-color:#fffff;
       
+    }
+   footer {
+     display:block;
+     background-color:#fff;
+     
       
   
   }
