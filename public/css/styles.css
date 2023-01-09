@@ -347,15 +347,19 @@ main.login form #txfUser:invalid {
     div.burger-menu {
       display: none;
     }
+    
     .site-shopping-info {
       overflow:hidden;
       background-color: #fff;
       margin-top: 20px;
+      max-width:1280px;
+      text-align:center;
     }
     
     .site-shopping-info .container {
     max-width: 1200px;
       background-color:#fff;
+      text-align:center;
 } 
     
 
@@ -400,6 +404,7 @@ main.login form #txfUser:invalid {
      padding:20px 10%
     
     }  
+    
       .site-shopping-info .info-slide>.img-container img {
     vertical-align: middle;
       
@@ -411,6 +416,7 @@ main.login form #txfUser:invalid {
 img {
     overflow-clip-margin: content-box;
     overflow: clip;
+  vertical-align:middle;
 }
     h2 {
     display: block;
