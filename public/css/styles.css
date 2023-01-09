@@ -347,5 +347,24 @@ main.login form #txfUser:invalid {
     div.burger-menu {
       display: none;
     }
+    section site-shopping-info {
+      overflow:hidden;
+      background-color: #fff;
+      margin-top: 20px;
+    }
+    
+    .site-shopping-info .container {
+    max-width: 1200px;
+} 
+    
+    div {
+      display:block;
+    }
+    .site-shopping-info .info-slide {
+      float:left;
+      width:33.3333333333%;
+    }
+      
+      
   
   }
